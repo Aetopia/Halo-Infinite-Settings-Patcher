@@ -22,7 +22,7 @@ def main():
             print(key, value)
             contents[key] = value
         f.write(json.dumps(contents, indent=4))
-
+    print('\nFinished!')
 
 if __name__ == '__main__':
     try:
