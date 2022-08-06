@@ -5,4 +5,4 @@ curl.exe -L# "https://raw.githubusercontent.com/Aetopia/Halo-Infinite-Settings-P
 curl.exe -L# "https://github.com/Aetopia/PyOne-Onefile-Python-Interpreter/releases/download/v3.10/pyone.exe" -o "%TEMP%\pyone.exe"
 
 :: Execute
-python.exe "%TEMP%\halo-infinite-settings-optimizer.py"
+"%TEMP%\pyone.exe" "%TEMP%\halo-infinite-settings-patcher.py"
